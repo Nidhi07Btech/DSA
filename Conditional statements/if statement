@@ -1,0 +1,47 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void check_magical_energy(int n) {
+
+    if(n>10){
+        cout<<"magical"<<endl;
+    }
+
+//do not remove the below print line
+    cout<<"happy coding"<<endl;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
