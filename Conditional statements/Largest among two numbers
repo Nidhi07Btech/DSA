@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+
+void find_max(int ,int );
+/*Find the maximum of the Two Numbers */
+
+void find_max(int a,int b)
+{
+/*write the code to find the maximum between two numbers below 
+only print the maximum number After printing make the cursor point to the new line */
+
+ if(a>b){
+    cout<<a<<endl;
+ }
+ 
+ else{
+    cout<<b<<endl;
+ }
+ 
+ 
+ 
+ /* Dont change anything below. If changed click on reset. */
+
+}
+
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    find_max(a,b);
+    return 0;
+}
