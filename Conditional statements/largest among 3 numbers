@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+
+void find_max(int ,int , int);
+/*Find the maximum of the Two Numbers */
+
+void find_max(int a,int b,int c)
+{
+/*write the code to find the maximum between three numbers below 
+only print the maximum number and after printing make the cursor point to new line  */
+
+ if(a>b && a>c){
+    cout<<a<<endl;
+ }
+ else if(b>c){
+    cout<<b<<endl;
+ }
+ else{
+    cout<<c<<endl;
+ }
+ /* Dont change anything below. If changed click on reset. */
+
+}
+
+int main()
+{
+    int a,b,c;
+    cin>>a>>b>>c;
+    find_max(a,b,c);
+    return 0;
+}
