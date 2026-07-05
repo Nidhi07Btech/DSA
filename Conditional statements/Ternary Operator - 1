@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+void has_passed(int );
+/*Find the maximum of the Two Numbers */
+
+void has_passed(int marks)
+{
+/*write the code to find the whether a candidate has passed or failed 
+only print "pass" or "fail" After printing make the cursor point to the new line */
+
+    cout<<( marks>=40 ? "pass":"fail")<<endl;
+ 
+ 
+ 
+ 
+ 
+ /* Dont change anything below. If changed click on reset. */
+
+}
+
+int main()
+{
+    int marks;
+    cin>>marks;
+    has_passed(marks);
+    return 0;
+}
