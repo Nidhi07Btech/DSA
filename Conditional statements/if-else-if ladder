@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+
+void print_cost(int );
+/*Find the maximum of the Two Numbers */
+
+void print_cost(int distance)
+{
+/*write the code below to print the cost
+     if the distance is given   */
+    if(distance>=0 && distance<=100){
+        cout<<5<<endl;
+    }
+    else if(distance>100 && distance<=500){
+        cout<<8<<endl;
+    }
+    else if(distance>500 && distance<1000){
+        cout<<10<<endl;
+    }
+    else if(distance>=1000){
+        cout<<12<<endl;
+    }
+ 
+ /* Dont change anything below. If changed click on reset. */
+
+}
+
+int main()
+{
+    int a;
+    cin>>a;
+    print_cost(a);
+    return 0;
+}
