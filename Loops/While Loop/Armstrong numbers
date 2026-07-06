@@ -1,0 +1,45 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+/*Function to check wheteher a number is an armstrong number or not */
+
+void check_armstrong(int n)
+{
+        /*Function to check whether a number is an armstrong number or not
+        Print true if yes else false */
+        int temp = n;
+        int digits=0;
+        int sum=0;
+        while(temp>0){
+            digits++;
+            temp/=10;
+        }
+
+        temp=n;
+
+        while(temp>0){
+            int num = temp%10;
+            sum+=pow(num, digits);
+            temp/=10;
+        }
+
+        if(sum==n){
+            cout<< boolalpha <<true;
+        }
+        else{
+            cout<< boolalpha <<false;
+        }
+
+ 
+ /* Dont change anything below. If changed click on reset. */
+
+}
+
+int main()
+{
+    int n;
+    cin>>n;
+    check_armstrong(n);
+    cout<<endl;
+    return 0;
+}
