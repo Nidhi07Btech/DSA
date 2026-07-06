@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+void print_digits();
+/*Function to print the digits of the number n */
+
+void print_digits(int n)
+{
+        /*Function to print the digits of the number n 
+        Note - Print all the digits in a new line*/
+
+        while(n>0){
+            cout << n%10 <<endl;
+            n=n/10;
+        }
+
+ /* Dont change anything below. If changed click on reset. */
+
+}
+
+int main()
+{
+    int n;
+    cin>>n;
+    print_digits(n);
+    return 0;
+}
