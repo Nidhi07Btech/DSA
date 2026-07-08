@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+
+int find_minimum(int * arr,int length)
+{
+/*write the code to find the minimum in an array
+only return the minimum value. Both array and size of array is given */
+   int min=arr[0];
+   for(int i=0; i<length; i++){
+    if(min>=arr[i]){
+        min=arr[i];
+    }
+    else{
+        min=min;
+    }
+   }
+   return min;
+ /* Dont change anything below. If changed click on reset. */
+
+}
+
+int main()
+{
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+    int min = find_minimum(arr,n);
+    cout<<min<<endl;
+    return 0;
+}
