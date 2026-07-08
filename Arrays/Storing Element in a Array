@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+int * store_array(int n)
+{
+/*Function to store the number from 1 to n 
+Note - After storing return the array (Create an array of size n)*/
+ int* a = new int[n];
+ for(int i=0; i<n; i++){
+    a[i]=i+1;
+ }
+ return a;
+
+ /* Dont change anything below. If changed click on reset. */
+
+}
+
+int main()
+{
+    int n;
+    cin>>n;
+    int * a = store_array(n);
+    for(int i=0;i<n;i++)
+    {
+        cout<<a[i]<<endl;
+    }
+    return 0;
+}
